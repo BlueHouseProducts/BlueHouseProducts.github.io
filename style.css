@@ -1,0 +1,28 @@
+body {
+    cursor: crosshair;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#demoFont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    word-spacing: -3.4px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
