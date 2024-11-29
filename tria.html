@@ -11,7 +11,7 @@
       let tria_release_date = new Date("12/14/2024");
 
       let diff_time = tria_release_date.getTime() - today_date.getTime();
-      let diff_days = Math.round(Difference_In_Time / (1000 * 3600 * 24));
+      let diff_days = Math.round(diff_time / (1000 * 3600 * 24));
 
       document.getElementById("date_shower").innerText = diff_days.toString();
     </script>
