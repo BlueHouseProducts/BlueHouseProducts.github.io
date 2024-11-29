@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Days to tria v1</title>
+  </head>
+  <body>
+    <h1>Days to tria v1</h1>
+    <p id="date_shower">Loading...</p>
+
+    <script>
+      let today_date = new Date();
+      let tria_release_date = new Date("12/14/2024");
+
+      let diff_time = date2.getTime() - date1.getTime();
+      let diff_days = Math.round(Difference_In_Time / (1000 * 3600 * 24));
+
+      document.getElementById("date_shower").innerText = diff_days.toString();
+    </script>
+  </body>
+</html>
