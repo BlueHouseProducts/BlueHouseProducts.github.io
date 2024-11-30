@@ -8,12 +8,15 @@
 
     <script>
       let today_date = new Date();
-      let tria_release_date = new Date("12/14/2024");
-
+      today_date.setHours(0, 0, 0, 0); // Normalize to ignore time
+      let tria_release_date = new Date(2024, 11, 14); // Avoid string parsing issues
+      tria_release_date.setHours(0, 0, 0, 0); // Normalize to ignore time
+      
       let diff_time = tria_release_date.getTime() - today_date.getTime();
       let diff_days = Math.round(diff_time / (1000 * 3600 * 24));
-
+      
       document.getElementById("date_shower").innerText = diff_days.toString();
+
     </script>
   </body>
 </html>
